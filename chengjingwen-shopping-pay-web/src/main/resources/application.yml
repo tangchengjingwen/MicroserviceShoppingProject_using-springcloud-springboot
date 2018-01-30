@@ -1,0 +1,10 @@
+server:
+  port: 8768
+  context-path: /pay-web
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: pay-web

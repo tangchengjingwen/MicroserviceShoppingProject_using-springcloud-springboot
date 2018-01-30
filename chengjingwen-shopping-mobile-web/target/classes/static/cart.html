@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 屏幕宽度 && 放大比例 && minimal-ui Safari 网页加载时隐藏地址栏与导航栏-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-
+	scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+	<!-- safari私有meta标签，允许全屏模式浏览 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- ios系统的私有标签，它指定在web app状态下，ios设备中顶端的状态条的颜色 -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<!-- 设备浏览网页时对数字不启用电话功能 -->
+	<meta content="telephone=no,email=no" name="format-detection" />
+	<title>Jiuchacha - Cart</title>
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 自适应样式单 -->
+	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div class="page-shopping" data-log="购物车">
+			<div class="header">
+
+				<div class="left">
+					<a href="index.html" title="酒查查商城" data-log="HEAD-首页" class="home"><!--vue-if--><span class="icon-home"></span></a>
+				</div>
+
+				<div class="tit">
+					<h2 data-log="HEAD-标题-购物车">
+						<span class="title">购物车</span>
+					</h2>
+				</div>
+
+				<div class="right">
+					<ul>
+						<li class="cart">
+							<a href="#" title="购物车" data-log="HEAD-购物车"><span class="icon icon-gouwuche"></span></a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+
+			<div class="shopping-empty">
+				<div class="tips_msg">
+					<img src="images/cart.png" class="img"><h3>购物车还是空的</h3>
+					<p>现在就去选购吧</p>
+				</div>
+				<div class="tips_btn">
+					<a href="#/product/category" class="xm-button xm-button-gray"><span>去逛逛</span></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

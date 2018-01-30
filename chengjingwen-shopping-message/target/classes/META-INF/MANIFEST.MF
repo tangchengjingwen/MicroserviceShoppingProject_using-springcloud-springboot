@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: chengjingwen-shopping-message
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: tangc
+Implementation-Vendor-Id: com.chengjingwen
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://projects.spring.io/spring-boot/chengjingwen
+ -shopping-parent/chengjingwen-shopping-message/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

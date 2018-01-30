@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 屏幕宽度 && 放大比例 && minimal-ui Safari 网页加载时隐藏地址栏与导航栏-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-
+	scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+	<!-- safari私有meta标签，允许全屏模式浏览 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- ios系统的私有标签，它指定在web app状态下，ios设备中顶端的状态条的颜色 -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<!-- 设备浏览网页时对数字不启用电话功能 -->
+	<meta content="telephone=no,email=no" name="format-detection" />
+	<title>Jiuchacha - User</title>
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 自适应样式单 -->
+	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+    <!-- header start -->
+	<div id="Cheader" style="">
+        <div id="header" class="header_03">
+            <div class="back">
+                <a href="index.html" class="arrow" data-stat-id="ee3d8ad4696c648d" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-ee3d8ad4696c648d', '/home/', 'pcpid']);">首页</a>
+            </div>
+            <div class="tit" style="">
+                <h3>登录</h3>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="cart">
+                        <a href="cart.html" data-stat-id="96c452cb9824c0df" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-96c452cb9824c0df', '/index.html#ac=shopping&amp;op=index', 'pcpid']);">购物车</a>
+                        <span id="ShoppingCartNum" style="display:none"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <!-- wrapper start -->
+    <div id="wrapper" class="xm_app">
+        <div id="viewport" class="viewport" style="background: transparent;">
+
+            <div id="crumbs" class="crumbs" style="display: none;">     
+                <ul>      
+                    <li><a href="/home/" data-stat-id="d4dd3d65fbbaad6b" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-d4dd3d65fbbaad6b', '/home/', 'pcpid']);"><span>首页</span></a></li>
+                     <li><a href="javascript:;" data-stat-id="2bee5a48315bb865" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-2bee5a48315bb865', 'javascript:;', 'pcpid']);">登录</a></li>
+                 </ul>    
+             </div>
+
+             <div class="user_view_03 mt20">
+
+                <div class="box box_01"> 
+
+                    <!-- 未登陆 -->
+                    <div class="logout_box">
+                        <a href="login.html">                     
+                            <div class="logout_txt"><h3 class="userLogin">立即登录|注册</h3><p>享受更多贴心服务</p></div>
+                        </a>
+                    </div>
+
+                    <!-- 已登陆 -->
+                    <div class="login_box">
+                        <a href="index.html">
+                            <div class="login_txt">
+                                <h3>236810227</h3>
+                                <p class="icn" id="AccountLogoutBtn">点击退出</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>    
+
+                <div class="box box_02 mb20">      
+
+                    <div class="user_nav list_nav mlr20">                     
+                        <ul>                         
+                            <li class="items">
+                                <a class="lnk" href="order.html">
+                                    <div class="un un_01">订单查询</div>
+                                </a>
+                            </li>                         
+                            <li class="items">
+                                <a href="order_wait.html" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-d244e731eee0fe88', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '待付款订单'])" class="userLogin lnk" data-stat-id="d244e731eee0fe88">                         
+                                    <div class="un un_02">待付款订单</div>
+                                </a>
+                            </li>                         
+                            <li class="items">
+                                <a href="order_logistics.html" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-ec7620a44dc0168e', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '物流查询'])" class="userLogin lnk" data-stat-id="ec7620a44dc0168e">                         
+                                    <div class="un un_03">物流查询</div>
+                                </a>
+                            </li>                         
+                            <li class="items">
+                                <a href="order_recharge.html" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-c2b6e4b10068049b', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '充值订单'])" class="userLogin lnk" data-stat-id="c2b6e4b10068049b">                         
+                                    <div class="un un_09">充值订单</div>
+                                </a>
+                            </li>                     
+                        </ul>       
+
+                        <ul>                         
+                            <li class="items"><a href="coupon.html" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-f0297cf5af5c4a47', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '优惠券'])" class="userLogin lnk" data-stat-id="f0297cf5af5c4a47">                         <div class="un un_04">优惠券</div></a></li>                         
+                            <li class="items"><a href="address.html" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-a9a24500da7c0e5c', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '地址管理'])" class="userLogin lnk" data-stat-id="a9a24500da7c0e5c">                         <div class="un un_05">地址管理</div></a></li>                         
+                            <li class="items"><a href="service.html" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-6b19c29ef52ae705', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '售后服务单'])" class="userLogin lnk" data-stat-id="6b19c29ef52ae705">                         <div class="un un_06">售后服务单</div></a></li>                         
+                            <li class="items"><a href="comment.html" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-40e7820363cc68e4', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '评价商品'])" class="userLogin lnk" data-stat-id="40e7820363cc68e4">                         <div class="un un_10">评价商品</div></a></li>
+                            <li class="items"><a href="javascript:;" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-ffe9e139d4b791d0', 'javascript:;', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '我的收藏'])" class="userLogin lnk" data-stat-id="ffe9e139d4b791d0">                         <div class="un un_14">我的收藏</div></a></li>                     
+                        </ul>                     
+
+                        <ul>                         
+                            <li class="items"><a class="lnk" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-458d874211556ed5', '/index.html#ac=mihome&amp;op=list', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '小米之家'])" href="/index.html#ac=mihome&amp;op=list" data-stat-id="458d874211556ed5">                             <div class="un un_07">小米之家</div></a></li>                         
+                            <li class="items"><a class="lnk" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-e68bb47c0041dab5', '/index.html#ac=station&amp;op=list', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '服务网点'])" href="/index.html#ac=station&amp;op=list" data-stat-id="e68bb47c0041dab5"><div class="un un_08">服务网点</div></a></li>                        
+                            <li class="items"><a class="lnk" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-bf052f50345fb6ba', '/v2.html#/security', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '防伪查询])" href="/v2.html#/security" data-stat-id="bf052f50345fb6ba"><div class="un un_16">防伪查询</div></a></li>              
+                            <li class="items"><a class="lnk" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-508c6755e89189a1', '/v2.html#/service/exchange', 'pcpid']);_hmt.push(['_trackEvent', 'app数据', '我的账户', '售后政策])" href="/v2.html#/service/exchange" data-stat-id="508c6755e89189a1">                             <div class="un un_15">售后政策</div></a></li>                     
+                        </ul>                 
+                    </div>    
+
+                </div>       
+
+            </div>
+
+            <div id="footer" class="footer">
+                <div class="tip">
+                    <a href="http://www.mi.com/?mobile" class="goDesktop" data-stat-id="8d858a68b4b01291" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-8d858a68b4b01291', 'http://www.mi.com/', 'pcpid']);"><span>切换到电脑版</span></a>
+                </div>
+                <div class="links">
+                    <a href="http://p.www.xiaomi.com/m/huodong/page/2013/0922/index.html" data-stat-id="ab305527e5d218c8" onclick="_msq.push(['trackEvent', 'e2a622d1b7caf838-ab305527e5d218c8', 'http://p.www.xiaomi.com/m/huodong/page/2013/0922/index.html', 'pcpid']);"><span class="linksBtn">立即下载</span>                 <p><strong>小米商城客户端</strong><span>与米粉交朋友</span></p>
+                    </a>
+                </div>         
+            </div>
+
+        </div>
+    </div>
+
+    <!-- wrapper end -->
+
+</body>
+</html>
